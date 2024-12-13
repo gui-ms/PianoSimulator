@@ -90,12 +90,17 @@ header .column {
         user-select: none;
         position: relative;
         text-transform: uppercase;
+
+        &.hide span{
+            display: none;
+        }
     }
 
     & .white {
         width: 70px;
         height: 230px;
         background: linear-gradient(#FFF 96%, #EEE 4%);
+        border: 1px solid #000;
         border-radius: 8px;
 
         &.active {
